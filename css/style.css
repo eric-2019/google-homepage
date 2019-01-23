@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.header,
+.footer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.nav a {
+  padding: 5px;
+  color: #000;
+}
+.google {
+  text-align: center;
+  font-size: 40px;
+}
