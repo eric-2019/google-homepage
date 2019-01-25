@@ -42,8 +42,18 @@
 .google {
   text-align: center;
   font-size: 50px;
-  color: rgb(0, 81, 255);
+  color: rgb(255, 125, 125);
 }
 .google:hover {
-  color: rgb(255, 0, 0);
+  animation-delay: 1000ms;
+  animation-duration: 300ms;
+  animation-name: xds;
+  animation-iteration-count: infinite;
+  animation-direction: alternate
+}
+@keyframes xds {
+  to{
+    color: rgb(255, 0, 0);
+    font-size: 80px
+  }
 }
