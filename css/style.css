@@ -51,9 +51,23 @@ position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  min-height: 300px;
 }
 
+.bmibutton{
+  margin: 20px;
+}
+
+.result {
+  background-color: rgb(187, 187, 187);
+  padding: 10px;
+  width:500px;
+  min-height:0;
+  /* margin: 20px; */
+}
+#result{
+  margin: 20px;
+}
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 
@@ -65,18 +79,17 @@ position: relative;
   padding: 20px;
 } */
 
-
-
 .google {
   padding: 20px;
   text-align: center;
   font-size: 50px;
   color: rgb(255, 125, 125);
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
 }
 .google:hover {
   animation-delay: 1000ms;
-  animation-duration: 300ms;
+  animation-duration: 350ms;
   animation-name: xds;
   animation-iteration-count: infinite;
   animation-direction: alternate
